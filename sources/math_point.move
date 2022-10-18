@@ -115,7 +115,7 @@ module math_utils::math_point {
     }
 
     #[test]
-    fun test_aaa() {
+    fun test_log_sqrt_price() {
         print(&get_log_sqrt_price_floor(get_sqrt_price(i64::from(799999))));
         print(&get_log_sqrt_price_floor(get_sqrt_price(i64::from(1))));
         print(&get_log_sqrt_price_floor(get_sqrt_price(i64::from(0))));
